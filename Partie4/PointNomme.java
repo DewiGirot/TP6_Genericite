@@ -1,11 +1,12 @@
 package Partie4;
 
-public class CoupleNomme<T> extends Couple<T> {
+public class PointNomme extends Couple<Integer> {
+
   private String nom;
 
   // les deux éléments du couple
-  public CoupleNomme(T premier, T second, String nom) {
-    super(premier, second);
+  public PointNomme(Integer x, Integer y, String nom) {
+    super(x, y);
     this.nom = nom;
   }
 
