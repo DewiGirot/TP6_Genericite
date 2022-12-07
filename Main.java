@@ -1,8 +1,8 @@
-import Partie3.ex3_2;
+import Partie5.bigElement;
 
 class Main {
   public static void main(String[] args) {
-    Integer[] t = { 1, 2, 3 };
-    Integer[] t2 = { 2, 3, 4 };
+    Integer[] tab = {1,5,3,7,9,1,4,6};
+    System.out.println("Plus grand élément du tableau : " + bigElement.biggerElement(tab));
   }
 }
